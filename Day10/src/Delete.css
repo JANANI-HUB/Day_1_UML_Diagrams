@@ -1,0 +1,82 @@
+.addback{
+    background-image: url(https://images.pexels.com/photos/1179581/pexels-photo-1179581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size:cover ;
+    height: 110vh;
+    width: 100%;
+}
+.delblur{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    height: 600px;
+    margin-top: 20px;
+    background-color: rgba(2, 2, 2, 0.8);
+    background-position: center;
+    background-size:cover ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.form-group {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding-left: 10px;
+  }
+  .ain0{
+    margin-left: 50px;
+    padding-left: 5px;
+  }
+  .ain1{
+    margin-left: 20px;
+    padding-left: 5px;
+  }
+  .ain2{
+    margin-left: 30px;
+    padding-left: 5px;
+  }
+  .ain3{
+    margin-left: 90px;
+    padding-left: 5px;
+  }
+  .ain4{
+    margin-left: 95px;
+    width:248px;
+    padding-left: 5px;
+  }
+  .ain5{
+    margin-left: 100px;
+    padding-left: 5px;
+  }
+  .ain6{
+    margin-left: 70px;
+    padding-left: 5px;
+  }
+  .adddiv{
+    margin-top: 90px;
+    padding-left: 5px;
+  }
+  .delbut{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(96, 161, 215);
+    cursor:pointer;
+  }
+
+
+
+
+
+
+
