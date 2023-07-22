@@ -1,0 +1,74 @@
+.contactback{
+        background: url(https://images.pexels.com/photos/5152573/pexels-photo-5152573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+        background-size:cover ;
+        height: 100vh;
+        width: 100%;
+    }
+.formcontact{
+        width:700px;
+        height:440px;
+        background:#131212;
+        border-radius:8px;
+        box-shadow:0 0 40px -10px #f9f9f9;
+        margin:auto;
+        padding:20px 30px;
+        max-width:calc(100vw - 40px);
+        box-sizing:border-box;
+        font-family:'Montserrat',sans-serif;
+        position:relative;
+        top: 20%;
+}
+.contactus{
+        margin:10px 0;
+        padding-bottom:10px;
+        width:180px;
+        color:#ffffff;
+        border-bottom:3px solid #2e8121;
+}
+.contactinp{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:none;
+        resize:none;
+        border:0;
+        font-family:'Montserrat',sans-serif;
+        transition:all .3s;
+        border-bottom:2px solid #d81313;
+        color:#ffffff;
+}
+.contactinp:focus{
+        border-bottom:2px solid #4141cd
+}
+.conp2{
+        color:#ffffff;
+        font-size: 11px;
+        padding-top: 40px;
+}
+.conp:before{
+        content:attr(type);
+        display:block;
+        margin:28px 0 0;
+        font-size:14px;
+        color:#ffffff}
+.conbutton{
+        float:right;
+        padding:8px 12px;
+        margin:8px 0 0;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #1c1cdb;
+        background:0;
+        color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s
+}
+.conbutton:hover{
+        border:2px solid #2e8121;
+        background:#2e8121;
+        color:#fff
+}
+
+.contactinp::placeholder{
+        color:rgb(255, 255, 255);
+}
