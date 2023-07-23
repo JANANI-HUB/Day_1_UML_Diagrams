@@ -1,0 +1,43 @@
+.tcback{
+  background: url(https://images.pexels.com/photos/5152573/pexels-photo-5152573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+  background-size:cover ;
+  height: 140vh;
+  width: 100%;
+}
+
+.blur-container {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    height: 770px;
+    margin-top: 20px;
+    background-color: rgba(2, 2, 2, 0.8);
+    background-position: center;
+    background-size:cover ;
+    border-radius: 20px;
+    overflow: hidden;
+   
+  
+  }
+  
+  .dark-text {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7); 
+  }
+  .termsdeco{
+    padding-left:20px;
+    padding-top: 10px;
+    color: #fff;
+ 
+  }
+  .tb1{
+    color:rgb(19, 7, 245);
+  }
+  .tb2{
+    color:rgb(8, 250, 8);
+  }
+  .tb3{
+    color:red;
+  }
