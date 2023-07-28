@@ -1,0 +1,8 @@
+
+
+import { createStore } from 'redux';
+import contactReducer from './Reducers';
+
+const store = createStore(contactReducer);
+
+export default store;
