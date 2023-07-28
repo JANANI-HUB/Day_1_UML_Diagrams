@@ -1,0 +1,10 @@
+server:
+  port: 9025
+
+spring:
+  application:
+    name: back
+
+eureka:
+  instance:
+    hostname: localhost
